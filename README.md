@@ -49,6 +49,11 @@ The AI player (Player 2) uses the Minimax algorithm with Alpha-Beta Pruning to c
 - **Heuristic**: The heuristic evaluation used for scoring the game state is the difference in the number of stones between the AI's store and the human player's store.
 
 ---
+## 🎬 Demo Video
+
+[Click here to watch the demo video](./demo.mp4)
+
+---
 
 ## 🛠️ Libraries Used
 - tkinter
