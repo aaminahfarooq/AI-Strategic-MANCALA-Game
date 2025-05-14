@@ -51,16 +51,21 @@ The AI player (Player 2) uses the Minimax algorithm with Alpha-Beta Pruning to c
 ---
 
 ## 🛠️ Libraries Used
-- Python 3.x
-- NumPy
-- Pandas
-- Seaborn
-- Matplotlib
-- scikit-learn
+- tkinter
+- from tkinter import messagebox
 
-📄 License
+---
+## 📌Acknowledgements
+   -Python and Tkinter for the programming and GUI.
+   
+   -Minimax Algorithm and Alpha-Beta Pruning for AI decision-making.
+
+---
+## 📄 License
 This project is for educational purposes only. Refer to the dataset license on Kaggle.
-✍️ Author
+
+---
+## ✍️ Author
 Aaminah Binte Farooq – 2025
 
 
@@ -68,16 +73,6 @@ Aaminah Binte Farooq – 2025
 
 
 
-
-⚙️ How It Works (AI Logic)
-
-The AI player (Player 2) uses the Minimax algorithm with Alpha-Beta Pruning to choose the best move. Here's a breakdown of how it works:
-
--Minimax Algorithm: The algorithm recursively explores all possible moves for both players, evaluates the resulting board states, and chooses the move that maximizes the AI's score while minimizing the human player's score.
-
--Alpha-Beta Pruning: This optimization technique helps cut off branches in the game tree that don't need to be explored, improving the efficiency of the Minimax algorithm.
-
--Heuristic: The heuristic evaluation used for scoring the game state is the difference in the number of stones between the AI's store and the human player's store.
 
 
 
