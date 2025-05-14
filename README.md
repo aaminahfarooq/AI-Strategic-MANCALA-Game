@@ -3,14 +3,12 @@
 This is a Mancala game with an AI opponent, implemented using Python and Tkinter for the graphical user interface (GUI). The AI uses the Minimax algorithm with Alpha-Beta Pruning to make optimal moves. The game allows two players to play Mancala, where Player 1 is a human and Player 2 is controlled by the AI.
 ---
 
-## 📊 Dataset
+## 🕹️ Game Description
+Mancala.African Chess is an ancient two-player strategy board game. The goal of the game is to capture more stones in your store than your opponent. The board consists of two rows, each containing 6 pits and a store for each player.
 
-- **Source**: [Kaggle Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-- **Size**: 284,807 transactions
-- **Features**: 30 features (V1–V28 PCA components, Time, Amount) + 1 Target (`Class`)
-- **Target**: 
-  - `0` → Legitimate
-  - `1` → Fraudulent
+- **Pits**: There are 12 pits (6 for each player).
+- **Stores**:  Each player has one store, located at the ends of the board.
+- **Players**: Players take turns to pick a pit and distribute its stones across the board in a counter-clockwise direction.
 
 ---
 
