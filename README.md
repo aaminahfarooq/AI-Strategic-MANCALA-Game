@@ -15,12 +15,19 @@ Mancala/African Chess is an ancient two-player strategy board game. The goal of 
 
 1. **Workflow**
    -Player 1 (Human): Select a pit from pits 0-5 to make a move.
+   
    -AI Player: The AI will automatically make a move based on the best possible decision using the Minimax algorithm.
+   
    -The game continues until no moves are possible, and the winner is determined based on the stones in the stores, or if one of the players has 0 stones.
+
+   
 2.**Game Interface**
    -The game board is displayed with 12 pits (6 for each player) and 2 stores (one for each player).
+   
    -Each pit shows the number of stones in it.
+   
    -Players can click a pit to make a move.
+   
    -The game announces the winner when it ends.
 
 ---
