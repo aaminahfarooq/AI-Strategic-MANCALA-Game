@@ -32,17 +32,12 @@ Mancala/African Chess is an ancient two-player strategy board game. The goal of 
 
 ---
 
-## Model Results
-
-| Metric              | Logistic Regression | Random Forest |
-|---------------------|---------------------|---------------|
-| Training Accuracy   | 93.9%               | 100%          |
-| Test Accuracy       | 88.6%               | 96.4%         |
-| AUC                 | 0.98                | 0.98          |
-| False Positives     | 2                   | 1             |
-| False Negatives     | 4                   | 1             |
-
-Random Forest performs slightly better but shows signs of overfitting.
+## 🚀 Features
+- **Interactive GUI**: Built using Tkinter for easy interaction.
+- **AI Opponent**: AI uses the Minimax algorithm with Alpha-Beta pruning for decision-making.
+- **Valid Move Check**: Players can only make valid moves (select pits with stones).
+- **End Game Detection**: The game automatically ends when no more valid moves are available, the pits of one of the players is 0, and the winner is declared based on the number of stones in the stores.
+- **Store Collection**: When one player’s pits are empty, the other player collects all the stones from their pits into their store.
 
 ---
 
