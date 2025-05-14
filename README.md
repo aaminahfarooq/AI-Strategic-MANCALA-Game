@@ -1,4 +1,4 @@
-# 🎮 AI-Strategic-MANCALA-Game
+# 🎮 AI-Strategic-Mancala-Game
 ---
 This is a Mancala game with an AI opponent, implemented using Python and Tkinter for the graphical user interface (GUI). The AI uses the Minimax algorithm with Alpha-Beta Pruning to make optimal moves. The game allows two players to play Mancala, where Player 1 is a human and Player 2 is controlled by the AI.
 ---
